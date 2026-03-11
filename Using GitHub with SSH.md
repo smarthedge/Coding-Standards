@@ -20,8 +20,12 @@ Last Updated : 12 Jul, 2025
 
 - Paste the below command and substitute your GitHub email address:
 
+  ```bash
+  $ ssh-keygen -t rsa -b 4096 -C "your_email@example.com" 
   ```
-   $ ssh-keygen -t rsa -b 4096 -C "your_email@example.com" 
+
+  ```bash
+  $ ssh-keygen -t ed25519 -C "your_email@example.com"
   ```
 
   
