@@ -42,17 +42,26 @@ Last Updated : 12 Jul, 2025
 
 - Initiate ssh-agent:
 
-  ```
+  ```bash
    $ eval "$(ssh-agent -s)" 
   ```
 
 - If your key is generated with a different name, replace id_rsa in the command below:
 
-  ```
+  ```bash
    $ ssh-add ~/.ssh/id_rsa 
   ```
 
+  ```bash
   
+  kenwa@Legion5 MINGW64 /d/Git/Coding-Standards (main)
+  $ eval "$(ssh-agent -s)"
+  Agent pid 1408
+  
+  kenwa@Legion5 MINGW64 /d/Git/Coding-Standards (main)
+  $ ssh-add C:\Users\kenwa\.ssh\kengit
+  
+  ```
 
 **Step 3:** **Add the SSH Key to your GitHub Account**
 
