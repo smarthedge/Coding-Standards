@@ -63,7 +63,7 @@ Last Updated : 12 Jul, 2025
   Agent pid 1408
   
   kenwa@Legion5 MINGW64 /d/Git/Coding-Standards (main)
-  $ ssh-add /d/users/kenwa/.ssh/kengit
+  $ ssh-add /c/users/kenwa/.ssh/kengit
   
   ```
 
